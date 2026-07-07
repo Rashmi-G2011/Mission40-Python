@@ -1,16 +1,22 @@
+#hello world program
 print("hello world!")
+
+#print() function
 name='Rashmi'
 age=20
 print("My name is", name, "and I am", age, "years old.")
+
 #area of rectangle
 l=5
 b=10
 area=l*b
 print("Area of rectangle is:", area)
+
 #celsius to fahrenheit
 celsius=65
 fahrenheit=(celsius*9/5)+32
 print(celsius, "degree Celsius is equal to", fahrenheit, "degree Fahrenheit.")
+
 #simple calculator
 num1=int(input("Enter first number: "))
 num2=int(input("Enter second number: "))
@@ -22,6 +28,7 @@ print("Sum:", sum)
 print("Difference:", diff)
 print("Product:", product)
 print("Quotient:", quotient)
+
 #percentage calculator
 marks_obtained=int(input("Enter marks obtained: "))
 total_marks=int(input("Enter total marks: "))
